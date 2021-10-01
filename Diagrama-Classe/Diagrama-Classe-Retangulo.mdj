@@ -1,0 +1,1057 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF8LGDHPrISxCg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF8LGDHP7ITJeQ=",
+									"_parent": {
+										"$ref": "AAAAAAF8LGDHPrISxCg="
+									},
+									"model": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8LGDHP7IUOdM=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHP7ITJeQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -240,
+											"top": 48,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8LGDHQLIVPzU=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHP7ITJeQ="
+											},
+											"font": "Arial;13;1",
+											"left": 53,
+											"top": 71,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "Retangulo"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8LGDHQLIW/LI=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHP7ITJeQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -240,
+											"top": 48,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8LGDHQLIXg6Y=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHP7ITJeQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -240,
+											"top": 48,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 64,
+									"width": 709.080078125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF8LGDHP7IUOdM="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF8LGDHQLIVPzU="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF8LGDHQLIW/LI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF8LGDHQLIXg6Y="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF8LGDHQLIYIq0=",
+									"_parent": {
+										"$ref": "AAAAAAF8LGDHPrISxCg="
+									},
+									"model": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8LGWhw7JHNz4=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIYIq0="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LGWhtLJEbFo="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 94,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-altura: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8LGcGu7JUOYg=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIYIq0="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LGcGsbJRp1Q="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 109,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-base: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8LG5DFLJeLB4=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIYIq0="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LG5DCbJbZbc="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 124,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-area: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8LG8f0rJpias=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIYIq0="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LG8fxrJmY/c="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 139,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-perimetro: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8LG/Zp7Jzd80=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIYIq0="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LG/ZlrJw9l4="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 154,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-nomeRetangulo: string",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8PasOvdwsBcE=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIYIq0="
+											},
+											"model": {
+												"$ref": "AAAAAAF8PasOqtwpUzU="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 169,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-cor: string",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 89,
+									"width": 709.080078125,
+									"height": 98
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF8LGDHQLIZ7vk=",
+									"_parent": {
+										"$ref": "AAAAAAF8LGDHPrISxCg="
+									},
+									"model": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8PaRO5tv1VSg=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8PaROxtvy+LI="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 192,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+Retangulo()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8Pab6ttwQYho=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8Pab6q9wNRok="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 207,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+Retangulo(novaArea: float, novoNome: string = SEM_NOME, novaCor: string = SEM_COR)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LHLByLJ9jJc=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LHLBvLJ60VM="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 222,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-calculaArea(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LHfBxrKk8c0=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LHfBurKhXXM="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 237,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "-calculaPerimetro(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LHkptrKuRas=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LHkprbKrKDM="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 252,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+setAltura(novaAltura: string): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LIMqc7LA87Y=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LIMqXrK9mOU="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 267,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+getAltura(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LJezQbLqbD4=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LJezNrLnnWo="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 282,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+setBase(novaBase: string): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LN1ZdLMKQsg=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LN1Za7MHF/o="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 297,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+getBase(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LN6Q+rMaC04=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LN6Q8LMXs/I="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 312,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+setNomeRetangulo(novoNome: string): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LOGblbMsmdI=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LOGbgrMp4Ns="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 327,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+getNomeRetangulo(): string",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LV0eOLM2Cck=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LV0eDrMzPZw="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 342,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+setArea(ret: Retangulo): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LWC157NKSpM=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LWC12bNHevY="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 357,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+getArea(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LWE7VLNVgYc=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LWE7RbNSLX8="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 372,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+setPerimetro(ret: Retangulo): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8LWLB07NlPuU=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8LWLBwrNidNk="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 387,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+getPerimetro(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8Pa0Qe9w31gU=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8Pa0QYNw0LLE="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 402,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+setCor(novaCor: string): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8Pa7d+dxFp48=",
+											"_parent": {
+												"$ref": "AAAAAAF8LGDHQLIZ7vk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8Pa7d79xCjlQ="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 417,
+											"width": 699.080078125,
+											"height": 13,
+											"text": "+getCor(): string",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 187,
+									"width": 709.080078125,
+									"height": 248
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF8LGDHQbIank8=",
+									"_parent": {
+										"$ref": "AAAAAAF8LGDHPrISxCg="
+									},
+									"model": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -120,
+									"top": 24,
+									"width": 92.01806640625,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF8LGDHQbIbCbA=",
+									"_parent": {
+										"$ref": "AAAAAAF8LGDHPrISxCg="
+									},
+									"model": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -120,
+									"top": 24,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 48,
+							"top": 64,
+							"width": 709.080078125,
+							"height": 371,
+							"nameCompartment": {
+								"$ref": "AAAAAAF8LGDHP7ITJeQ="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF8LGDHQLIYIq0="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF8LGDHQLIZ7vk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF8LGDHQbIank8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF8LGDHQbIbCbA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF8LGDHOrIQDYA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Retangulo",
+					"documentation": "This method is responsible to get the \"altura\" data from a instance of Retangulo class.",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8LGWhtLJEbFo=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "altura",
+							"documentation": "Attribute responsible to save the rectangle height.",
+							"stereotype": "",
+							"visibility": "private",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8LGcGsbJRp1Q=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "base",
+							"documentation": "This attribute is responsible to save the base information of a rectangle.",
+							"visibility": "private",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8LG5DCbJbZbc=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "area",
+							"documentation": "This attribute is responsible to save the area of a rectangle.",
+							"visibility": "private",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8LG8fxrJmY/c=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "perimetro",
+							"documentation": "This attribute is responsible to save the perimeter of a rectangle.",
+							"visibility": "private",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8LG/ZlrJw9l4=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "nomeRetangulo",
+							"documentation": "This attribute is responsible to save the name of a rectangle.",
+							"visibility": "private",
+							"type": "string"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8PasOqtwpUzU=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "cor",
+							"visibility": "private",
+							"type": "string"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8PaROxtvy+LI=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "Retangulo"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8Pab6q9wNRok=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "Retangulo",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8PaejbtwUV7A=",
+									"_parent": {
+										"$ref": "AAAAAAF8Pab6q9wNRok="
+									},
+									"name": "novaArea",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8Pajm/9wc9h0=",
+									"_parent": {
+										"$ref": "AAAAAAF8Pab6q9wNRok="
+									},
+									"name": "novoNome",
+									"type": "string",
+									"defaultValue": "SEM_NOME"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8PamaBdwiTIY=",
+									"_parent": {
+										"$ref": "AAAAAAF8Pab6q9wNRok="
+									},
+									"name": "novaCor",
+									"type": "string",
+									"defaultValue": "SEM_COR"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LHLBvLJ60VM=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "calculaArea",
+							"documentation": "This method is responsible to calculate the area of a rectangle.\n\nThis function just called if the setArea() are in execution.",
+							"visibility": "private",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LJUlMLLeEQs=",
+									"_parent": {
+										"$ref": "AAAAAAF8LHLBvLJ60VM="
+									},
+									"type": "float",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LYJyHLN1OI0=",
+									"_parent": {
+										"$ref": "AAAAAAF8LHLBvLJ60VM="
+									},
+									"name": "Parameter1",
+									"type": "",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LHfBurKhXXM=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "calculaPerimetro",
+							"documentation": "This method is responsible to calculate the perimeter of a rectangle.\n\nThis function are just called if the setPerimetro() is called.",
+							"visibility": "private",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LJVIKrLh1h4=",
+									"_parent": {
+										"$ref": "AAAAAAF8LHfBurKhXXM="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LHkprbKrKDM=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "setAltura",
+							"documentation": "This method is responsible to set the \"altura\" data from a instance of Retangulo class.\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LHmUV7Ky1zY=",
+									"_parent": {
+										"$ref": "AAAAAAF8LHkprbKrKDM="
+									},
+									"name": "novaAltura",
+									"documentation": "This method set the new value for \"altura\" in a object of Retangulo class.",
+									"type": "string"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LJd3PLLldSc=",
+									"_parent": {
+										"$ref": "AAAAAAF8LHkprbKrKDM="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LIMqXrK9mOU=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "getAltura",
+							"documentation": "This method is responsible to get the \"altura\" data from a instance of Retangulo class.",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LJTTGrLb/NY=",
+									"_parent": {
+										"$ref": "AAAAAAF8LIMqXrK9mOU="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LJezNrLnnWo=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "setBase",
+							"documentation": "This method is responsible to set the \"base\" data from a instance of Retangulo class.",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LJiix7Lxq0Y=",
+									"_parent": {
+										"$ref": "AAAAAAF8LJezNrLnnWo="
+									},
+									"name": "novaBase",
+									"type": "string"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LN2RJ7MQLes=",
+									"_parent": {
+										"$ref": "AAAAAAF8LJezNrLnnWo="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LN1Za7MHF/o=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "getBase",
+							"documentation": "This method is responsible to get the \"base\" data from a instance of Retangulo class.",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LN5w6bMVnXY=",
+									"_parent": {
+										"$ref": "AAAAAAF8LN1Za7MHF/o="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LN6Q8LMXs/I=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "setNomeRetangulo",
+							"documentation": "This method is responsible to set the \"nomeRetangulo\" data from a instance of Retangulo class.\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LODsprMgMQ0=",
+									"_parent": {
+										"$ref": "AAAAAAF8LN6Q8LMXs/I="
+									},
+									"name": "novoNome",
+									"type": "string"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LOGD6LMnzxg=",
+									"_parent": {
+										"$ref": "AAAAAAF8LN6Q8LMXs/I="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LOGbgrMp4Ns=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "getNomeRetangulo",
+							"documentation": "This method get the nomeRetangulo of a instance of a Retangulo class.",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LOH3J7Mxpfs=",
+									"_parent": {
+										"$ref": "AAAAAAF8LOGbgrMp4Ns="
+									},
+									"type": "string",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LV0eDrMzPZw=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "setArea",
+							"documentation": "This method set the area of a instance of a Retangulo class.\n\nThe function calculaArea() was called if setArea() is executed",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LV2m17M7VYM=",
+									"_parent": {
+										"$ref": "AAAAAAF8LV0eDrMzPZw="
+									},
+									"name": "ret",
+									"type": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									}
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LV5D97NBGxA=",
+									"_parent": {
+										"$ref": "AAAAAAF8LV0eDrMzPZw="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LWC12bNHevY=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "getArea",
+							"documentation": "This method returne the area of a instance of a Retangulo class.\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LWEpRbNQctk=",
+									"_parent": {
+										"$ref": "AAAAAAF8LWC12bNHevY="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LWE7RbNSLX8=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "setPerimetro",
+							"documentation": "This method set the perimeter of a instance of a Retangulo class.\n\nThe method calculaPerimetro() was called if setPerimetro() is executed.",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LWI+obNbBmI=",
+									"_parent": {
+										"$ref": "AAAAAAF8LWE7RbNSLX8="
+									},
+									"type": "void",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LWJnj7NdrWE=",
+									"_parent": {
+										"$ref": "AAAAAAF8LWE7RbNSLX8="
+									},
+									"name": "ret",
+									"type": {
+										"$ref": "AAAAAAF8LGDHOrIQDYA="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8LWLBwrNidNk=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "getPerimetro",
+							"documentation": "This class is responsible to create a object if describes a rectangle.\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LWORQrNrkfc=",
+									"_parent": {
+										"$ref": "AAAAAAF8LWLBwrNidNk="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8Pa0QYNw0LLE=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "setCor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8Pa5nMNw90QA=",
+									"_parent": {
+										"$ref": "AAAAAAF8Pa0QYNw0LLE="
+									},
+									"name": "novaCor",
+									"type": "string"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8PbBFWtxRAEQ=",
+									"_parent": {
+										"$ref": "AAAAAAF8Pa0QYNw0LLE="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8Pa7d79xCjlQ=",
+							"_parent": {
+								"$ref": "AAAAAAF8LGDHOrIQDYA="
+							},
+							"name": "getCor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8Pa8/qtxJ2vc=",
+									"_parent": {
+										"$ref": "AAAAAAF8Pa7d79xCjlQ="
+									},
+									"type": "string",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
