@@ -254,7 +254,7 @@
 											"top": 192,
 											"width": 699.080078125,
 											"height": 13,
-											"text": "+Retangulo()",
+											"text": "«constructor»+Retangulo()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -271,7 +271,7 @@
 											"top": 207,
 											"width": 699.080078125,
 											"height": 13,
-											"text": "+Retangulo(novaArea: float, novoNome: string = SEM_NOME, novaCor: string = SEM_COR)",
+											"text": "«constructor»+Retangulo(novaArea: float, novoNome: string = SEM_NOME, novaCor: string = SEM_COR)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -659,7 +659,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF8LGDHOrIQDYA="
 							},
-							"name": "Retangulo"
+							"name": "Retangulo",
+							"stereotype": "constructor"
 						},
 						{
 							"_type": "UMLOperation",
@@ -668,6 +669,7 @@
 								"$ref": "AAAAAAF8LGDHOrIQDYA="
 							},
 							"name": "Retangulo",
+							"stereotype": "constructor",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
